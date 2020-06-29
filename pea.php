@@ -11,9 +11,9 @@ echo "\n[*] Register";
 echo "\n------------------\n";
 
 echo "[*]Creating user ! ";
-$us = "sipapaw".$rand;
+$us = "dudulpea".$rand;
 $email = $us."@1secmail.com";
-$password = "garuda".$rand;
+$password = "kontol".$rand;
 
 $register = $booking->register($email, $password);
 $newfile = fopen("akun.txt", "a");
